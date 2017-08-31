@@ -19,7 +19,9 @@ export interface ICheerioTextNode extends ICheerioNode
 export interface I$
 {
 	prototype;
+
 	[index: string]: any;
+
 	[index: number]: ICheerioNode;
 }
 
@@ -35,18 +37,17 @@ export function use($: I$)
 	return $;
 }
 
-export function createTextNode(text: string): ICheerioTextNode
+export function createTextNode(text: string | any): ICheerioTextNode
 {
 	return {
 		type: 'text',
-		data: text.toString(),
+		data: (text && typeof text.text == 'function') ? text.text() : text.toString(),
 	};
 }
 
-export function createTextNodeCheerio(text: string)
+export function createTextNodeCheerio(text)
 {
 	return (this.prototype || this.__proto__)._make(createTextNode(text));
 }
 
 export default createTextNode;
-
