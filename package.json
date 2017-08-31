@@ -1,11 +1,21 @@
 {
   "name": "cheerio-create-text-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "Add .createTextNode(text) functionality to [cheerio](https://www.npmjs.com/package/cheerio)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/cheerio-create-text-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bluelovers/cheerio-create-text-node/issues"
+  },
+  "homepage": "https://github.com/bluelovers/cheerio-create-text-node#readme"
 }
