@@ -1,37 +1,8 @@
 {
+  "extends": "@bluelovers/tsconfig/tsdx/index.json",
   "compilerOptions": {
-    "module": "CommonJS",
-    "target": "es2017",
-
-    "moduleResolution": "node",
-    //"allowJs": true,
-
-    "sourceMap": true,
-    "inlineSourceMap": true,
-    "inlineSources": true,
-
-    "declaration": true,
-    "experimentalDecorators": true,
-
-    "allowSyntheticDefaultImports": true,
-
-    "strict": false,
-
-    //"forceConsistentCasingInFileNames": true,
-
-    "locale": "zh-TW",
-    "pretty": true,
-
-    "baseUrl": ".",
-    "sourceRoot": ".",
-    "rootDir": ".",
-    "outDir": ".",
-
-    "traceResolution": true,
-    "newLine": "lf"
-  },
-
-  "exclude": [
-    "node_modules"
-  ]
+    "importHelpers": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": false
+  }
 }

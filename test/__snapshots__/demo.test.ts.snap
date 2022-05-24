@@ -1,0 +1,314 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`demo.test $('ul').createTextNode instanceof cheerio 1`] = `
+LoadedCheerio {
+  "0": Object {
+    "data": "123",
+    "type": "text",
+  },
+  "_root": LoadedCheerio {
+    "0": Document {
+      "children": Array [
+        <html>
+          <head />
+          <body>
+            <ul>
+                
+              <li />
+                
+            </ul>
+          </body>
+        </html>,
+      ],
+      "endIndex": null,
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "startIndex": null,
+      "type": "root",
+      "x-mode": "quirks",
+    },
+    "_root": [Circular],
+    "length": 1,
+    "options": Object {
+      "decodeEntities": true,
+      "xml": false,
+    },
+  },
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "xml": false,
+  },
+  "prevObject": LoadedCheerio {
+    "_make": [Function],
+    "_parse": [Function],
+    "_render": [Function],
+    "constructor": [Function],
+    "createTextNode": [Function],
+  },
+}
+`;
+
+exports[`demo.test $.createTextNode instanceof cheerio 1`] = `
+LoadedCheerio {
+  "0": Object {
+    "data": "123",
+    "type": "text",
+  },
+  "_root": LoadedCheerio {
+    "0": Document {
+      "children": Array [
+        <html>
+          <head />
+          <body>
+            <ul>
+                
+              <li />
+                
+            </ul>
+          </body>
+        </html>,
+      ],
+      "endIndex": null,
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "startIndex": null,
+      "type": "root",
+      "x-mode": "quirks",
+    },
+    "_root": [Circular],
+    "length": 1,
+    "options": Object {
+      "decodeEntities": true,
+      "xml": false,
+    },
+  },
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "xml": false,
+  },
+  "prevObject": LoadedCheerio {
+    "_make": [Function],
+    "_parse": [Function],
+    "_render": [Function],
+    "constructor": [Function],
+    "createTextNode": [Function],
+  },
+}
+`;
+
+exports[`demo.test $.createTextNode instanceof cheerio 2`] = `"[cheerio object]"`;
+
+exports[`demo.test $.createTextNode instanceof cheerio 3`] = `undefined`;
+
+exports[`demo.test $.createTextNode(cheerio dom) 1`] = `
+LoadedCheerio {
+  "0": Object {
+    "data": "123",
+    "type": "text",
+  },
+  "_root": LoadedCheerio {
+    "0": Document {
+      "children": Array [
+        <html>
+          <head />
+          <body>
+            <ul>
+                
+              <li />
+                
+            </ul>
+          </body>
+        </html>,
+      ],
+      "endIndex": null,
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "startIndex": null,
+      "type": "root",
+      "x-mode": "quirks",
+    },
+    "_root": [Circular],
+    "length": 1,
+    "options": Object {
+      "decodeEntities": true,
+      "xml": false,
+    },
+  },
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "xml": false,
+  },
+  "prevObject": LoadedCheerio {
+    "_make": [Function],
+    "_parse": [Function],
+    "_render": [Function],
+    "constructor": [Function],
+    "createTextNode": [Function],
+  },
+}
+`;
+
+exports[`demo.test $.createTextNode(cheerio dom) 2`] = `
+LoadedCheerio {
+  "0": Object {
+    "data": "123",
+    "type": "text",
+  },
+  "_root": LoadedCheerio {
+    "0": Document {
+      "children": Array [
+        <html>
+          <head />
+          <body>
+            <ul>
+                
+              <li />
+                
+            </ul>
+          </body>
+        </html>,
+      ],
+      "endIndex": null,
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "startIndex": null,
+      "type": "root",
+      "x-mode": "quirks",
+    },
+    "_root": [Circular],
+    "length": 1,
+    "options": Object {
+      "decodeEntities": true,
+      "xml": false,
+    },
+  },
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "xml": false,
+  },
+  "prevObject": LoadedCheerio {
+    "_make": [Function],
+    "_parse": [Function],
+    "_render": [Function],
+    "constructor": [Function],
+    "createTextNode": [Function],
+  },
+}
+`;
+
+exports[`demo.test test:append2 1`] = `
+LoadedCheerio {
+  "0": <ul>
+      
+    <li />
+      
+    Object {
+      "data": "123",
+      "next": null,
+      "parent": <ul>
+          
+        <li />
+          
+        [Circular]
+      </ul>,
+      "prev":   ,
+      "type": "text",
+    }
+  </ul>,
+  "_root": LoadedCheerio {
+    "0": Document {
+      "children": Array [
+        <html>
+          <head />
+          <body>
+            <ul>
+                
+              <li />
+                
+              Object {
+                "data": "123",
+                "next": null,
+                "parent": <ul>
+                    
+                  <li />
+                    
+                  [Circular]
+                </ul>,
+                "prev":   ,
+                "type": "text",
+              }
+            </ul>
+          </body>
+        </html>,
+      ],
+      "endIndex": null,
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "startIndex": null,
+      "type": "root",
+      "x-mode": "quirks",
+    },
+    "_root": [Circular],
+    "length": 1,
+    "options": Object {
+      "decodeEntities": true,
+      "xml": false,
+    },
+  },
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "xml": false,
+  },
+  "prevObject": LoadedCheerio {
+    "0": Document {
+      "children": Array [
+        <html>
+          <head />
+          <body>
+            <ul>
+                
+              <li />
+                
+              Object {
+                "data": "123",
+                "next": null,
+                "parent": <ul>
+                    
+                  <li />
+                    
+                  [Circular]
+                </ul>,
+                "prev":   ,
+                "type": "text",
+              }
+            </ul>
+          </body>
+        </html>,
+      ],
+      "endIndex": null,
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "startIndex": null,
+      "type": "root",
+      "x-mode": "quirks",
+    },
+    "_root": [Circular],
+    "length": 1,
+    "options": Object {
+      "decodeEntities": true,
+      "xml": false,
+    },
+  },
+}
+`;
